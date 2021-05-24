@@ -29,7 +29,7 @@ namespace ArquiteturaHexagonal
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "ArquiteturaHexagonal", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "ArquiteturaHexagonal.API", Version = "v1"});
             });
         }
 
@@ -40,7 +40,7 @@ namespace ArquiteturaHexagonal
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ArquiteturaHexagonal v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ArquiteturaHexagonal.API v1"));
             }
 
             app.UseHttpsRedirection();
