@@ -15,4 +15,24 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ArquiteturaHexagonal.Repository\ArquiteturaHexagonal.Repository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Filters\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Filters\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Filters\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Filters\**" />
+    </ItemGroup>
+
 </Project>

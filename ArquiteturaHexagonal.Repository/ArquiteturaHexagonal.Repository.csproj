@@ -13,4 +13,13 @@
       <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Context\Configuration" />
+      <Folder Include="Repositories" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ArquiteturaHexagonal.Domain\ArquiteturaHexagonal.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
