@@ -10,13 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc0b417-8c8e-41ae-9d0f-8a9f482dd1ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArquiteturaHexagonal/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArquiteturaHexagonal/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArquiteturaHexagonal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArquiteturaHexagonal/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.API/ArquiteturaHexagonal.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.API/ArquiteturaHexagonal.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Domain/Categoria.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Domain/Categoria.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Domain/Produto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Domain/Produto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Application.Abstraction/ArquiteturaHexagonal.Application.Abstraction.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Application.Abstraction/ArquiteturaHexagonal.Application.Abstraction.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Application/ArquiteturaHexagonal.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Application/ArquiteturaHexagonal.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Domain/ArquiteturaHexagonal.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Domain/ArquiteturaHexagonal.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Exceptions/ArquiteturaHexagonal.Exceptions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Exceptions/ArquiteturaHexagonal.Exceptions.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.IoC/ArquiteturaHexagonal.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.IoC/ArquiteturaHexagonal.IoC.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Jobs/ArquiteturaHexagonal.Jobs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Jobs/ArquiteturaHexagonal.Jobs.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Migrations/ArquiteturaHexagonal.Migrations.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Migrations/ArquiteturaHexagonal.Migrations.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Repository/ArquiteturaHexagonal.Repository.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Repository/ArquiteturaHexagonal.Repository.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Repository/Context/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Repository/Context/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Shared/ArquiteturaHexagonal.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Shared/ArquiteturaHexagonal.Shared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquiteturaHexagonal.Tests.UnitTest/ArquiteturaHexagonal.Tests.UnitTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArquiteturaHexagonal.Tests.UnitTest/ArquiteturaHexagonal.Tests.UnitTest.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +57,12 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/ArquiteturaHexagonal.Domain/Produto.cs" />
       <option value="$PROJECT_DIR$/ArquiteturaHexagonal.Domain/Categoria.cs" />
-      <option value="$PROJECT_DIR$/ArquiteturaHexagonal.Repository/Context/AppDbContext.cs" />
       <option value="$PROJECT_DIR$/ArquiteturaHexagonal.API/appsettings.json" />
       <option value="$PROJECT_DIR$/ArquiteturaHexagonal.API/Filters/CommumResponseActionFilterAttribute.cs" />
       <option value="$PROJECT_DIR$/ArquiteturaHexagonal.API/Startup.cs" />
+      <option value="$PROJECT_DIR$/ArquiteturaHexagonal.Repository/Context/AppDbContext.cs" />
+      <option value="$PROJECT_DIR$/ArquiteturaHexagonal.Migrations/2021/Configuration/Tables/InicialCreate/202125052146_CriacaoTabelaCategoria.cs" />
+      <option value="$PROJECT_DIR$/ArquiteturaHexagonal.Migrations/2021/Configuration/Tables/InitialCreate/202125052146_CriacaoTabelaCategoria.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oE1kxv4xNCvblS9fFaIhccINqV" />
@@ -114,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612837103934</updated>
       <workItem from="1612837120691" duration="1059000" />
+      <workItem from="1621992343024" duration="291000" />
     </task>
     <servers />
   </component>
